@@ -113,8 +113,6 @@ UserTesting started at 9:30
 Set the timer for 5 minutes to show them we're serious about not talking on and on and then tell them the following things:
 
 * Course structure is dictated by learning theory
-* interrupt and reflect is better than flow for learning
-* we'll do a lot of: 30 minute exercise, interupt, reflect
 * Best schoolkid math outcomes from teachers who only ask questions
 * Having said that, I'll tell you a few more things
 
@@ -555,7 +553,6 @@ Do 'Reflect on What I Learned' posters:
 
 Do reflection presentations
 
-Tell them to take a break, but during the break to update their post-it goals.  This is always a bit confusing.  Lately I've been telling them to update the wall to reflect their current goals.  They can find a move their previous goals, or put up new goals.  They can dot-vote by putting blank new post-its somewhere.  They can rip a post-it in half.  Whatever.  We just want them to think.
 
 ***BREAK***
 
@@ -564,13 +561,24 @@ Ask about pairing experience.  Talk about different pairing techniques.
 ## Bottles, Redux, continued
 
 ### 99 Bottles, They do Shameless Green to DRY
-10:00am
+10:15am
 
 OCTanner at 10:45
 
 Make sure they 'git pull', which should get them the 'Shameless' from which we demoed
 
 ***Say:***
+
+* Do a big re-anchor in context
+  * Had Shameless Green
+  * Got requirements change - 6 packs
+  * What it open?
+  * Do you know how to make it open?
+  * What were the code smells? - Conditionals, duplication
+  * How did we decide which to fix? - The one we understood best.
+  * Doing a refactoring, what's the definition? - change arrangement not behavior
+  * What does this mean about your tests?  - they should not break
+  * This is not TDD Red-Green-Refactor, it's refactor under green.
 
 * you have 30 minutes to DRY out the strings
 * we'll see where you are, might need more time
@@ -721,6 +729,7 @@ Once Extract Class is done, ask:
 
 
 ### Create SOLID posters
+Create Wall Poster of Extract Class Recipe while they're doing SOLID posters.
 
 2:00pm
 
