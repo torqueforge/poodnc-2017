@@ -60,6 +60,7 @@ Who has read the book?
 How much Ruby?
 How much TDD?
 How much pairing?
+Who has read the book?
 
 Ask if they have experience pairing.  If they don't, discuss how pairing works.
 Have them put themselves into pairs across Ruby and OOD experience.
@@ -311,6 +312,8 @@ You should deal with new requirements in two steps.
 
 Questions they should ask when thinking about a new requirement:
 
+**POSTER!**
+
   * Flowchart questions:
     * is this code open/closed to new requirement
     * do you know how to make it open/closed
@@ -333,6 +336,8 @@ For House Shameless:
 This is the start of DRYing out the strings using a very specific refactoring technique.
 
 ##### The specific plan
+**POSTER!**
+
 1) find the things that are most alike
 2) find the smallest difference between them
 3) make the smallest change that will remove the difference
@@ -341,7 +346,7 @@ This is the start of DRYing out the strings using a very specific refactoring te
   3) Execute the code and use the result
   4) Delete unused code.
 
-try to make changes only on a single line of code (can't always, but try)
+try to make changes only on a single line of code
 run the tests after each change
 if the tests fail, undo and make a better change
 
@@ -616,10 +621,12 @@ Even if you don't do a Show & Tell, get them to talk to each other about how it 
     * what would flog say?
     * we turned one conditional into many :-)
     * it flogs worse
+  * this is really a procedure.  It's not very OO.
   * is anything better?
     * string duplication is gone
     * concepts have names
   * is this better overall than shameless green?
+
 
   * what's next?
     * Flowchart
@@ -738,6 +745,15 @@ give them 35 minutes to take a 5 min break and then do 30 mins research
 have them give 5 minute presentations (this is a great opportunity for them to nourish their inner playwrights)
 Their presentation should include a definition, examples (in code and/or in life) and places in class or in their own applications where they follow/break the rule.
 
+**POSTER!**
+
+SOLID isn't so useful, but tell them about Steve Freeman and Nat Pryce's
+  * Loosely Coupled
+  * Highly Cohesive
+  * Easily Composable
+  * Context Independent
+
+
 **SHORT BREAK**
 
 
@@ -747,7 +763,7 @@ OCTanner started "They Do Extract Class" at 3:20
 
 Make sure they all ```git pull``` before starting.
 
-MAKE A POSTER WITH THE FOLLOWING LIST:
+**POSTER!**
 
   Extract class
 
@@ -986,7 +1002,7 @@ Remember that creating a wrapper introduces and API breaking chance and requires
 ### Remaining Presentations
 For however long it takes.
 
-### House, Random and Echo
+### House, Random and Pirate
 
 Let's drive them into a hole using inheritance.
 
@@ -996,18 +1012,15 @@ RandomHouse Instructions:
   * The rules are: you can't use a conditional, and House must be open to the new requirement.
   * Tell them that inheritance is perfect and to go write it.
 
-Pirate/Formal House Instructions
+Pirate House Instructions
+  * Have them decide what a pirate would say instead of "This is"
+  * Same rules: you can't use a conditional, and House must be open to the new requirement.
+  * Create a `prefix` method to isolate "This is".
+  * Create PirateHouse to override `prefix`.
 
-EchoHouse Instructions:
-  * Each bit should appear twice.
-      * This is the house that Jack built the house that Jack built.
-      * This is the malt that lay in the malt that lay in the house that Jack built the house that Jack built.
-      * etc.
-  * Same rules.  No conditionals, House must be open.
-  * Tell them again to just go use inheritance.
 
-RandomEchoHouse Instructions:
-  * Still want House, random house and echo house.
+RandomPirateHouse Instructions:
+  * Still want House, Random house and Pirate house.
   * Same rules.  No conditionals, House must be open.
   * New rule.  You may not duplicate any code.
 
@@ -1030,19 +1043,33 @@ This is the problem they know, and they should be able to figure out that they n
 These objects play a common role.
 They must name the role, define the API, create various objects to play the role, and inject them into House.
 
-They should create an Order role, and then perhaps a Formatter role.
+They should create an orderer role, and then perhaps a prefixer role.
 This is a good place to introduce them to named parameters, if it hasn't already come up.
 
-Make them demo House, random house, echo house and random echo house.
+Make them demo House, random house, pirate house and pirate echo house.
 
 Once they get this done, continue to add new variants.  All previous variants must continue to work, plus
   * Hold 'the house the Jack built' last, shuffle only lines 1-11.
   * Mix up actors 'the malt' and actions 'that lay in'.
   Each line has a trailing 'that'.  This final, trailing 'that' separates the actor from the action.
-  * Mix up actors 'the priest', modifiers 'all shaven and shorn' and actions 'the married'.
+  * Mix up actors ('the priest'), modifiers ('all shaven and shorn') and actions ('the married').
   Not every line has a modifier, assume the modifier is '' if it doesn't exist.
 
 I don't have new refactorings for these variants, but some examples are in the old house\_x\_old\_exploration branch.
+
+### Course Summary
+Stop them at 3:30 to do a summary.
+
+This is OO.
+  * a world of small, collaborating objects
+  * Look for the conditional
+  * identify differences that represent the same abstraction
+  * Name the abstraction
+  * Create polymorphic role players
+
+This is OO.  
+
+
 
 
 ### Do final survey
