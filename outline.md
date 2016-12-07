@@ -213,7 +213,7 @@ The ```House``` exercise is already in master.
 
 
 
-### House, Shameless Green show & tell
+### House, Shameless Green
 
 Define shameless green
 
@@ -275,7 +275,7 @@ They need a requirements change to force them to improve the code.
 
 ###### House Requirements Change
 
-The customer wants to inject new phrase bits into the algorithm.
+The customer wants to vary new phrase bits into the algorithm.
 
 Now the bar is raised.  Things that change, do.  This means that what's okay for shameless green is not okay now that the code has begun to change.
 
@@ -442,7 +442,7 @@ Tell them:
 
 At the 10 minute mark, ask if they'll be done.  If some say no, ask how much more time they need and add that amount to the timer.
 
-### 99 Bottles, Shameless Green Show & Tell
+### 99 Bottles, Shameless Green
 
 They might put evil pair code in #verse, #verses and #song to pass the tests.  If so, ask:
 
@@ -566,9 +566,7 @@ Ask about pairing experience.  Talk about different pairing techniques.
 ## Bottles, Redux, continued
 
 ### 99 Bottles, They do Shameless Green to DRY
-10:15am
-
-OCTanner at 10:45
+10:45am
 
 Make sure they 'git pull', which should get them the 'Shameless' from which we demoed
 
@@ -695,7 +693,7 @@ In Bottles, go into every method we've copied over and replace it's contents wit
 
 Then remove remove the method arguments one at a time, using a default of (number=self.number) or (sneakily) changing the name of the number argument to something else (notused=:deleteme)
 
-This is a good place to talk about caching, cache invaliidation, immutibility, and treating object creation as free.
+This is a good place to talk about caching, cache invalidation, immutability, and treating object creation as free.
 
 Once they get all of the forwarding in place, all of the forwarded methods can be made obsolete by just getting an instance of BottleNumber (well, two instances) in the #verse method. Have them do this next.
 
@@ -745,7 +743,7 @@ give them 35 minutes to take a 5 min break and then do 30 mins research
 have them give 5 minute presentations (this is a great opportunity for them to nourish their inner playwrights)
 Their presentation should include a definition, examples (in code and/or in life) and places in class or in their own applications where they follow/break the rule.
 
-**POSTER!**
+
 
 SOLID isn't so useful, but tell them about Steve Freeman and Nat Pryce's
   * Loosely Coupled
