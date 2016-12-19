@@ -691,7 +691,7 @@ Add an attr_reader and initializer for number
 In Bottles, go into every method we've copied over and replace it's contents with
   BottleNumber.new(number).action(number)
 
-Then remove remove the method arguments one at a time, using a default of (number=self.number) or (sneakily) changing the name of the number argument to something else (notused=:deleteme)
+Then remove the method arguments one at a time, using a default of (number=self.number) or (sneakily) changing the name of the number argument to something else (notused=:deleteme)
 
 This is a good place to talk about caching, cache invalidation, immutability, and treating object creation as free.
 
