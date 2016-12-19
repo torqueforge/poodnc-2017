@@ -60,6 +60,7 @@ Things to Watch:
     http://bit.ly/sandi_metz_less_path_to_better_design
     http://bit.ly/sandi_metz_make_a_mess
     http://bit.ly/sandi_metz_nothing_is_something
+    http://bit.ly/gary_bernhardt_boundaries
     http://bit.ly/peter_harkins_what_comes_after_mvc
 
   Refactoring
@@ -77,6 +78,9 @@ Things to Watch:
 
   Pointy Headed
     http://bit.ly/rich_hickey_simple_made_easy
+
+  Curated List of Talks (includes some of the above)
+    http://bit.ly/jack_hsu_software_development_talks_list
 
   Blog posts:
   General:
