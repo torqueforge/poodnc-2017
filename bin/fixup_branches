@@ -3,10 +3,10 @@
 set -e # exit on any error
 
 ########
-# Do the following by hand to create local branches if you just cloned a new repo
+# If you screwed up the local copy of 'exercises', and just recloned from github, make all the remote branches local tracking branches via:
 ########
 # for branch in `git branch -a | grep remotes | grep -v HEAD | grep -v master`; do
-#     git branch --track ${branch##*/} $branch
+#    git branch --track ${branch##*/} $branch
 # done
 
 git checkout master
