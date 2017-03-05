@@ -92,3 +92,6 @@ Things to Watch:
 
   Transformation Priority Premise
     http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
+
+  Static Typing
+    http://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html
