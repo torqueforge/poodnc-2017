@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'minitest', '~> 5.6'
+gem 'minitest', '~> 5.10'
 
 # gem 'guard'
 # gem 'guard-shell'
