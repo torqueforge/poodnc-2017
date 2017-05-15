@@ -56,3 +56,5 @@ echo
 echo "Cleaning up tmp files"
 git checkout master
 rm *.newest
+
+echo "You now must push all of the branches yourself...or you could make a little script"
