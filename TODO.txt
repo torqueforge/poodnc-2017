@@ -1,0 +1,21 @@
+RECREATE REPO
+
+
+VERSE CLASS
+
+
+DEPENDENCY INJECTION
+
+
+FACTORIES
+
+
+TESTS
+
+I have a couple of rules-of-thumb.  First, I don't generally TDD extracting classes when following a recipe.  The BottleNumber class is created following the Extract Class recipe, and the original Bottle class provides a safety net during the extraction.  Subsequently, the BottleNumberN classes are extracted following the Replace Conditional with Polymorphism recipe, using the same safety net.  These extractions don't create _new_ behavior, they just move existing behavior around.  The existing safety net feels good enough during the extractions.
+
+I don't feel the need for 100% test coverage.  Some tests cost more to create and maintain then they worth, at least in the apps I work on. Once I completed these abstractions, I'd lean back and look at the new code arrangement and decide where I needed to add tests.
+
+In a real live app that involved normal stuff (i.e. not rockets or surgical robots), I'd be inclined to behave just as we do in the book, and then perhaps add a shared test for BottleNumber-ness that all BottleNumbers had to pass.  I would very definitely _not_ test each BottleNumberN class to make sure each method returned a specific value.  Those classes and methods are so small that the test would just echo the class.  I just don't see that saving me money.
+
+Also, it's entirely possible that, IRL, the requirement would be such that the refactoring would continue.  I can easily imagine a situation where I decided to change Bottle to be injected by a BottleNumber-ish, and created a test double for BottleNumber inject. At this point the tests _and_ the code would be decoupled.
