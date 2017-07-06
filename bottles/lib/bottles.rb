@@ -33,12 +33,9 @@ end
 #############################
 class BottleNumber
   def self.for(number)
-    case number
-    when 0
-      BottleNumber0
-    when 1
-      BottleNumber1
-    else
+    begin
+      const_get("BottleNumber#{number}")
+    rescue NameError
       BottleNumber
     end.new(number)
   end
