@@ -37,10 +37,10 @@ class BottleNumber
   end
 
   def self.registry
-    @@registry ||= [self]
+    @@registry ||= [BottleNumber]
   end
 
-  def self.inherited(candidate)
+  def self.register(candidate)
     registry.unshift(candidate)
   end
 
@@ -81,6 +81,8 @@ end
 
 
 class BottleNumber0 < BottleNumber
+  register(self)
+
   def self.handles?(number)
     number == 0
   end
@@ -99,6 +101,8 @@ class BottleNumber0 < BottleNumber
 end
 
 class BottleNumber1 < BottleNumber
+  register(self)
+
   def self.handles?(number)
     number == 1
   end
