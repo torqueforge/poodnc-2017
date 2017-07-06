@@ -33,10 +33,12 @@ end
 #############################
 class BottleNumber
   def self.for(number)
-    registry =
-      Hash.new(BottleNumber).merge( {0 => BottleNumber0, 1 => BottleNumber1})
+    registry = [BottleNumber0, BottleNumber1, BottleNumber]
+    registry.find {|candidate| candidate.handles?(number)}.new(number)
+  end
 
-    registry[number].new(number)
+  def self.handles?(number)
+    true
   end
 
   attr_reader :number
@@ -72,6 +74,10 @@ end
 
 
 class BottleNumber0 < BottleNumber
+  def self.handles?(number)
+    number == 0
+  end
+
   def quantity
     "no more"
   end
@@ -86,6 +92,10 @@ class BottleNumber0 < BottleNumber
 end
 
 class BottleNumber1 < BottleNumber
+  def self.handles?(number)
+    number == 1
+  end
+
   def container
     "bottle"
   end
