@@ -33,11 +33,10 @@ end
 #############################
 class BottleNumber
   def self.for(number)
-    begin
-      const_get("BottleNumber#{number}")
-    rescue NameError
-      BottleNumber
-    end.new(number)
+    registry =
+      Hash.new(BottleNumber).merge( {0 => BottleNumber0, 1 => BottleNumber1})
+
+    registry[number].new(number)
   end
 
   attr_reader :number
