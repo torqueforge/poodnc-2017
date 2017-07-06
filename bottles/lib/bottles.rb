@@ -33,8 +33,15 @@ end
 #############################
 class BottleNumber
   def self.for(number)
-    registry = [BottleNumber0, BottleNumber1, BottleNumber]
     registry.find {|candidate| candidate.handles?(number)}.new(number)
+  end
+
+  def self.registry
+    @@registry ||= [self]
+  end
+
+  def self.inherited(candidate)
+    registry.unshift(candidate)
   end
 
   def self.handles?(number)
