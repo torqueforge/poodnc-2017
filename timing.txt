@@ -1,0 +1,79 @@
+Day 1
+-------
+9:45 Shameless Green Complete
+
+break
+
+Goals into Categories
+Talk about OOD/Refactoring/Testing relationship
+
+10:15 shamless show and tell
+
+11:15 New requirement. Talk about open/closed.
+11:30 Start mob DRYing out Shameless Green
+
+12:30 Break for lunch after 2 and 1 are resolved.
+1:30 return from lunch
+
+2:10 Mob of drying bottles is complete, break
+
+2:20 They do Bottles Shameless to DRY
+
+3:00 break
+
+3:10 Talk about DRY, mob extract class
+
+4:10 Day 1 done
+
+
+Day 2
+-------
+9:00 Survey
+9:15 start reflection
+9:45 break
+10:00 presentations
+
+10:15 They do Extract class
+11:55 break
+
+
+11:05 discuss extract class
+
+11:15 Mob Conditional to Polymorphism
+11:40 they do conditional to polymorphism
+
+12:00 Lunch
+
+1:10
+  what about the inheritance hierarchy? Is it good or bad?
+  What are we told not to use inheritance?
+
+1:15 Mob liskov in successor
+     Mob open current factory to start a conversation about metaprogramming
+     Mob monkey patching vs conversion functions
+
+2:20 Solid posters
+
+3:50 They do liskov, simple open factory, and simple Integer monkey patch
+
+
+Day 3
+--------
+9:00 Survey
+9:15 reflection
+10:15 Factories
+11:00 Animal
+12:05 lunch
+1:15 Show them the Guaranteed Animal Enforcement code
+
+1:30 they do house shameless green
+  To start before inheritance
+    git checkout origin/house_2a_pre_random -- house/
+    git push
+  To start before composition
+    save house_pre_compsition in house, commit and push
+
+1:30 Mob house to DRY
+2:00 break
+2:15 House inheritance
+2:30 House composition
