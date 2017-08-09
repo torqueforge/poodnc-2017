@@ -97,3 +97,31 @@ Day 1
 - 14:25-15:10 They do DRY bottles
 - 15:10-16:20 Mob extract class
 
+Day 2
+-----
+
+- 09:00-09:30 Survey, short discussion
+- 09:30-10:00 They do reflection
+- 10:00-10:10 Break
+- 10:10-10:40 Reflection presentations, red/green/refactor 
+- 10:40-11:10 They do extract class (they really only needed 20 minutes, they tried successor on their own)
+- 11:10-11:30 Break
+- 11:30-12:00 Mob refactoring conditional to polymorphism
+- 12:00-12:50 Lunch
+- 12:50-14:00 Successor, monkey patch as mob
+- 14:00-15:10 SOLID
+- 15:10-15:30 Break
+- 15:30-16:15 Extract verse
+
+Day 3
+-----
+
+Tentative plan
+
+Reflection
+Factories (mob)
+Break
+Farm/APIs (mob)
+Rails/Demeter (mob)
+Lunch
+House
