@@ -1046,6 +1046,8 @@ This is a good place to introduce them to named parameters, if it hasn't already
 
 Make them demo House, random house, pirate house and pirate echo house.
 
+** POSTER! **
+
 Once they get this done, continue to add new variants.  All previous variants must continue to work, plus
   * Hold 'the house the Jack built' last, shuffle only lines 1-11.
   * Mix up actors 'the malt' and actions 'that lay in'.
