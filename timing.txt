@@ -108,7 +108,7 @@ Day 2
 - 11:10-11:30 Break
 - 11:30-12:00 Mob refactoring conditional to polymorphism
 - 12:00-12:50 Lunch
-- 12:50-14:00 Successor, monkey patch as mob
+- 12:50-14:00 They do conditional to polymorphism. Successor, monkey patch as mob.
 - 14:00-15:10 SOLID
 - 15:10-15:30 Break
 - 15:30-16:15 Extract verse
@@ -116,12 +116,31 @@ Day 2
 Day 3
 -----
 
-Tentative plan
+- 09:00-09:25 Surveys, talk about plan for the day
+- 09:25-10:10 Reflection
+- 10:10-10:20 Break
+- 10:20-10:48 Factories (mob)
+- 10:48-11:00 Break
+- 11:00-12:00 Farm/APIs (mob)
+- 12:00-13:00 Lunch
+- 13:00-14:00 They do house shameless, DRY
+- 14:00-14:20 Break
+- 14:15-14:45 Mob house composition
+- 14:45-15:00 Break
+- 15:00-15:40 They do house composition
+- 15:40-17:00 Wrap up class, field questions
 
-Reflection
-Factories (mob)
-Break
-Farm/APIs (mob)
-Rails/Demeter (mob)
-Lunch
-House
+--------------------------------------------------------------------------------
+
+procore-2017-aug-b
+
+Day 1
+-----
+
+- 09:00-09:20 Course intro, repo setup, etc.
+- 09:20-09:35 They do bottles shameless green
+- 09:35-09:47 Explain course
+- 09:47-10:00 Break
+- 10:00-10:25 Collect goals, discuss OOD/Testing/Refactoring
+- 10:25-11:00 Bottles shameless green show and tell
+- 11:00-11:10 Break
