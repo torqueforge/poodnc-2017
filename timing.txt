@@ -143,4 +143,15 @@ Day 1
 - 09:47-10:00 Break
 - 10:00-10:25 Collect goals, discuss OOD/Testing/Refactoring
 - 10:25-11:00 Bottles shameless green show and tell
-- 11:00-11:10 Break
+- 11:00-11:15 Break
+- 11:15-11:30 Define shameless green
+- 11:30-11:55 Open/closed, code smells
+- 11:55-12:50 Lunch
+- 12:50-14:05 Mob DRY bottles
+- 14:05-14:20 Break
+- 14:20-15:00 They do DRY bottles
+- 15:00-15:10 Break
+- 15:10-16:10 Mob extract class
+
+Day 2
+-----
