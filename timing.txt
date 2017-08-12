@@ -155,3 +155,24 @@ Day 1
 
 Day 2
 -----
+
+09:00-09:20 Surveys, discussion
+09:20-10:08 Reflection
+10:08-10:35 They do extract class
+10:35-10:50 Break
+10:50-11:30 Mob conditional to polymorphism
+11:30-11:40 They do conditional to polymorphism
+11:40-12:00 Mob successor
+12:00-12:40 Lunch
+12:40-13:10 Monkey patching, conversion function
+13:10-13:15 Short break
+13:15-13:45 Mob factories
+13:45-14:00 Break
+14:00-15:10 (-ish) SOLID
+15:10-15:15 Short break
+15:15-16:00 Verse extraction Sandi & TJ
+
+Day 3
+-----
+
+09:00-09:15 Surveys
