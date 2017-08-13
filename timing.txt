@@ -176,3 +176,12 @@ Day 3
 -----
 
 09:00-09:15 Surveys
+09:15-10:10 Reflection
+10:10-10:20 Break
+10:20-12:00 Split into 3 groups: bottles redux, they do factories, they do verse extraction.
+12:00-12:35 Lunch
+12:35-13:35 Bottles redux group finish through six-pack, rejoins rest of group
+13:35-13:45 Break
+13:45-14:25 (roughly) Mob house
+14:25-15:15 They do house
+15:15-15:30 Class wrap up
