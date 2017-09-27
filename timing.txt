@@ -1,3 +1,32 @@
+# Clio 2017-09
+
+## Day 1
+
+09:23 Start bottles exercise. We decided, since they read the book, they should
+only have 20 minutes to do the initial bottles exercise. Future classes should
+only get 15 minutes.
+
+09:45 Start break
+
+10:02 Start course explanation
+
+10:10 Start collecting goals
+
+10:43 Start bottles show and tell
+
+11:47 Start discussion: shameless green, new requirements, open/closed,
+refactoring, begin mobbing DRY bottles
+
+12:20 Break for lunch (had just started mobbing DRY bottles)
+
+
+## Day 2
+
+
+## Day 3
+
+--------------------------------------------------------------------------------
+
 Day 1
 -------
 9:45 Shameless Green Complete
@@ -103,7 +132,7 @@ Day 2
 - 09:00-09:30 Survey, short discussion
 - 09:30-10:00 They do reflection
 - 10:00-10:10 Break
-- 10:10-10:40 Reflection presentations, red/green/refactor 
+- 10:10-10:40 Reflection presentations, red/green/refactor
 - 10:40-11:10 They do extract class (they really only needed 20 minutes, they tried successor on their own)
 - 11:10-11:30 Break
 - 11:30-12:00 Mob refactoring conditional to polymorphism
