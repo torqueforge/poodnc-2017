@@ -4,20 +4,20 @@
 1 + 2           # => 3
 
 # what is it?
-1.class         # +> Fixnum
+1.class         # +> Integer
 
 # what does it know?
-Fixnum.instance_methods
-Fixnum.instance_methods.class               # => Array
-Fixnum.instance_methods.sort
-Fixnum.instance_methods.size
+Integer.instance_methods
+Integer.instance_methods.class               # => Array
+Integer.instance_methods.sort
+Integer.instance_methods.size
 
-Fixnum.superclass
-Fixnum.ancestors
-Fixnum.instance_methods(false).size
-Fixnum.instance_methods(false).sort
-Fixnum.instance_methods(false).sort[4]       # +> :+
-Fixnum.instance_methods(false).sort[4].class # +> Symbol
+Integer.superclass
+Integer.ancestors
+Integer.instance_methods(false).size
+Integer.instance_methods(false).sort
+Integer.instance_methods(false).sort[4]       # +> :+
+Integer.instance_methods(false).sort[4].class # +> Symbol
 #  http://ruby-doc.org/core-2.0.0/Symbol.html
 
 
@@ -62,4 +62,4 @@ nil.class
 # Look at the source for NilClass #&
 #   http://ruby-doc.org/core-2.0.0/NilClass.html
 
-# Fixnums, Symbols, true, false, and nil are 'immediate' objects.
+# Integers, Symbols, true, false, and nil are 'immediate' objects.
