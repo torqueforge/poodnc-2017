@@ -2,24 +2,76 @@
 
 ## Day 1
 
-09:23-09:45 Initial bottles exercise. We decided, since they read the book, they should only have 20 minutes to do the initial bottles exercise. Future classes should only get 15 minutes.
+09:23-09:45 Initial bottles exercise. We decided, since they read the book, they
+should only have 20 minutes to do the initial bottles exercise. Future classes
+should only get 15 minutes.
+
 09:45-10:02 Break
+
 10:02-10:10 Course explanation
+
 10:10-10:43 Collect goals
+
 10:43-11:47 Bottles show and tell
-11:47-12:20 Discussion: shameless green, new requirements, open/closed, refactoring, begin mobbing DRY bottles
+
+11:47-12:20 Discussion: shameless green, new requirements, open/closed,
+refactoring, begin mobbing DRY bottles
+
 12:20-13:00 Lunch (had just started mobbing DRY bottles)
+
 13:00-14:25 Mob DRY bottles
+
 14:25-14:35 Break
-14:35-15:15 They do DRY bottles refactoring. They did this quickly and well. 20 minutes would have been enough. Most groups switched typists.
+
+14:35-15:15 They do DRY bottles refactoring. They did this quickly and well. 20
+minutes would have been enough. Most groups switched typists.
+
 15:15-15:30 Break
+
 15:30-16:30 Discuss DRY bottles, mob DRY to extract class
 
 
 ## Day 2
 
+09:00-09:35 Surveys and discussion about Day 1. They had a better understanding
+of the book material than previous classes who claimed to have read the book.
+So, the push back for Day 1 was that it was too slow. A couple of suggestions
+and thoughts that came out of it. Organize the initial pairings based on how
+well they understood the book, not on Ruby experience. At the very beginning of
+class, ask them to define shameless green, then only give them 10 minutes to
+write shameless green for bottles, without using the book as a guide. This will
+give us some feedback about how well they've understood the material. Then, we
+can skip show and tell, or at least spend less time on it. If we skip it, we
+need to find a place in the outline to discuss transformation priority premise
+and other concepts that usually get introduced during show and tell. They also
+only need 15-20 minutes to DRY verse. This will provide us even more feedback
+about how well they've understood the book material.
+
+09:35-10:10 They work on reflection presentations. They asked for 5 extra
+minutes.
+
+10:10-10:57 They give reflection presentations.
+
+10:57-11:15 Break
+
+11:15-11:45 They do extract class. Discussion time plus 20 minutes to do ther
+refactoring.
+
+11:45-12:15 Discussion. Ad hoc discussion about refactoring big apps that seemed
+really useful, and was.
+
+12:15-12:50 Lunch
+
+12:50-14:00 Mob refactor: successor, conditional to polymorphism. I probably
+forgot to log the timing for a break.
+
+14:00-15:05 SOLID
+
+15:15-17:00 Mob verse template refactoring, long follow on discussion
 
 ## Day 3
+
+09:00-xx:xx Surveys
 
 --------------------------------------------------------------------------------
 
