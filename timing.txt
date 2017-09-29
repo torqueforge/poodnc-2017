@@ -71,7 +71,13 @@ forgot to log the timing for a break.
 
 ## Day 3
 
-09:00-xx:xx Surveys
+Tentative:
+09:00-09:25 Surveys
+09:25-10:30 Reflection
+10:45-12:15 Farm
+01:00-01:45 Factories
+02:00-03:30 House
+
 
 --------------------------------------------------------------------------------
 
