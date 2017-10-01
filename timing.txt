@@ -71,13 +71,26 @@ forgot to log the timing for a break.
 
 ## Day 3
 
-Tentative:
 09:00-09:25 Surveys
-09:25-10:30 Reflection
-10:45-12:15 Farm
-01:00-01:45 Factories
-02:00-03:30 House
 
+09:25-10:30 Reflection
+
+10:30-10:38 Discussion of today's schedule
+
+10:38-10:50 Break
+
+10:50-12:30 Farm, Rails discussion
+
+12:30-13:15 Lunch
+
+13:15-13:52 Factories
+
+13:52-14:05 Break
+
+14:00-15:45 House. They wanted an all-class explanation to get them around the
+corner of extracting phrases, which took some time. At 15:05 we started
+explaining order, composition, where inheritance goes wrong. At about 15:25 they
+started working on it.
 
 --------------------------------------------------------------------------------
 
