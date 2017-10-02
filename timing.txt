@@ -1,3 +1,26 @@
+# University of Michigan
+
+## Day 1
+
+09:00-09:30 Introductions, pair, talk about pairing and TDD
+
+09:30-10:00 Initial bottles exercise
+
+10:00-10:10 Break
+
+10:10-10:17 Introduce the course
+
+10:17-10:50 Collect goals, interview style, follow on discussion
+
+10:50-12:00 Bottles show and tell
+
+12:00-12:30 Lunch
+
+12:30-xx:xx Bottles shameless green, new requirement discussion
+
+xx:xx-xx:xx Mob bottles remove duplication
+
+--------------------------------------------------------------------------------
 # Clio 2017-09
 
 ## Day 1
