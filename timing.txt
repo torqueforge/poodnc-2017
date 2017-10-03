@@ -26,6 +26,24 @@ the same timing as Univ. of Minnesota.)
 
 15:25-16:50 Discuss DRY bottles refactoring, mob bottles extract class
 
+## Day 2
+
+09:00-09:30 Surveys, AV issues, introduce reflection
+
+09:30-10:05 Work on reflection
+
+10:05-10:35 Give reflection presentations
+
+10:35-10:45 Reset context for extract class refactoring
+
+10:45-11:15 They do DRY to extract class
+
+11:15-11:30 Break
+
+11:30-12:05 Mob conditional to polymorphism
+
+12:05-12:45 Lunch
+
 --------------------------------------------------------------------------------
 # Clio 2017-09
 
