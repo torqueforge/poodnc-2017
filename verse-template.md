@@ -68,6 +68,8 @@ objects that play that role. But now in the test double, we *are* willing to
 just return the string from the class-scope `lyrics` method, removing everything
 but the class method. It's now simpler.
 
+Once the API of `BottleVerse` becomes just `lyrics(number)`, change the `BottleVerseTest` to make assertions about `BottleVerse.lyrics(number)` rather than `BottleVerse.new(number).lyrics`.
+
 We can accept the default of `BottleVerse` for now. It's fine. The fact that
 the class name of `BottleNumber` is known to and hardcoded in `BottleVerse` is
 fine. These two things are not going to vary independently.
@@ -75,6 +77,3 @@ fine. These two things are not going to vary independently.
 Question: why not `BottleVerse.new.lyrics(number)`? Is this a mutation/caching
 concern. Yes. More like value object. Prefer immutability. It's okay to make new
 objects.
-
-
-
