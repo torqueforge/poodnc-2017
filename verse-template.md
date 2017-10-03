@@ -49,7 +49,7 @@ number. That ought to be optional too. Let's inject it so that we can vary it.
 This is the key language to use.
 
 Again use the technique of a new test with the same name as an existing test
-(`test_the_whole)_song`) above that one, so we can parse and execute. Inject
+(`test_the_whole_song`) above that one, so we can parse and execute. Inject
 `highest` and `lowest` and use them in the production code. Now we can inject a
 smaller range for the song test, again using the `VerseDouble`. Inject a new
 `highest`, something like 4. Remove the old whole song test. Now the tests are
