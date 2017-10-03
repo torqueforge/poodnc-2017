@@ -14,11 +14,17 @@
 
 10:50-12:00 Bottles show and tell
 
-12:00-12:30 Lunch
+12:00-12:40 Lunch
 
-12:30-xx:xx Bottles shameless green, new requirement discussion
+12:40-14:25 Bottles shameless green, new requirement discussion, mob bottles
+remove duplication. A lot of discussion about names with this group. (This is
+the same timing as Univ. of Minnesota.)
 
-xx:xx-xx:xx Mob bottles remove duplication
+14:25-14:40 Break
+
+14:40-15:25 They do shameless to DRY bottles
+
+15:25-16:50 Discuss DRY bottles refactoring, mob bottles extract class
 
 --------------------------------------------------------------------------------
 # Clio 2017-09
