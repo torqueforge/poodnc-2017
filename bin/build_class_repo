@@ -43,8 +43,9 @@ Dir.chdir(class_name)
 `git add README.md`
 `git rm CLASS_SETUP.md`
 `git rm outline.md`
+`git rm timing.txt`
 `git rm -r bin`
-`git checkout origin/house -- house/`
+# `git checkout origin/house -- house/` # maybe not house on day 1
 `git checkout origin/bottles -- bottles/`
 `git commit -m 'Create repo for #{class_name}'`
 `git push origin master`
