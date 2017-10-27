@@ -1,17 +1,12 @@
 ####################
 # Exploring the Ruby Object Hierarchy
 ####################
-1.class       # => Fixnum
-Fixnum.superclass
-Fixnum.ancestors
-
-# what is the class of any class?
-Fixnum.class  # => Class
+1.class       # => Integer
 Integer.class # => Class
 
 
 # what are the classes of all of my ancestors?
-Fixnum.ancestors.collect {|ancestor| "(#{ancestor.class}) #{ancestor}"}
+Integer.ancestors.collect {|ancestor| "(#{ancestor.class}) #{ancestor}"}
 
 # what is this module thing?
 Module.class # => Class
@@ -29,9 +24,8 @@ class Class
 end
 
 # Now I can send #subclasses to any instance of Class
-Fixnum.ancestors    # look upwards
-Fixnum.subclasses   # look downwards
-Integer.subclasses  #         "
+Integer.ancestors   # look upwards
+Integer.subclasses  # look downwards
 Numeric.subclasses  #         "
 
 # The current #subclasses method shows every decendant of a Class,
@@ -59,14 +53,14 @@ class Class
   end
 end
 
-Fixnum.subclasses           # => []
-
-Integer.subclasses          # => [Bignum, Fixnum]
-Integer.decendants          # => [Bignum, Fixnum]
+Integer.subclasses           # => []
 
 Numeric.subclasses          # => [Complex, Rational, Float, Integer]
-Numeric.decendants          # => [Complex, Rational, Bignum, Float, Fixnum, Integer]
-Numeric.nested_subclasses   # correct result, but it's ugly
+Numeric.decendants          # => [Complex, Rational, Float, Integer]
+
+Object.subclasses
+Object.decendants
+Object.nested_subclasses   # correct result, but it's ugly
 
 class Class
 
@@ -84,8 +78,9 @@ class Class
 
 end
 
-Numeric.nested_subclasses   # => [Complex, Rational, Float, {Integer=>[Bignum, Fixnum]}]
-Exception.nested_subclasses # ...
+Numeric.nested_subclasses
+Object.nested_subclasses
+Exception.nested_subclasses
 
 # Bonus: What happens is you send #subclasses to an instance of Module?
 #        How would you fix this?
